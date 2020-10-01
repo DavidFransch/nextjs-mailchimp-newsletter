@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  place-items: center;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin: 4rem 10rem;
+  padding: 2rem;
+}
+
+.header {
+  font-size: 32px;
+}
+
+.details {
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.input {
+  padding: 2px 4px;
+  margin-right: 1rem;
+}
+
+.errorMsg {
+  color: red;
+  font-weight: bold;
+}
+
+.successMsg {
+  color: blue;
+  font-weight: bold;
+}
